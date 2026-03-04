@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <form action='/predict' method="POST">
+            Sepal Length: <input type='text' name='sepal_length'><br>
+            Sepal Width: <input type='text' name='sepal_width'><br>
+            Petal Length: <input type='text' name='petal_length'><br>
+            Petal Width: <input type='text' name='petal_width'><br>
+            class: {{GBC_result}}<br>
+            class: {{ADA_result}}<br>
+            class: {{DTC_result}}<br>
+            class: {{GNB_result}}<br>
+            class: {{KNC_result}}<br>
+            class: {{LDA_result}}<br>
+            class: {{LRM_result}}<br>
+            class: {{MLP_result}}<br>
+            class: {{RFC_result}}<br>
+            class: {{SVC_result}}<br>
+            <input type='submit' value='Predict'>
+
+        </form>
+    </body>
+</html>
